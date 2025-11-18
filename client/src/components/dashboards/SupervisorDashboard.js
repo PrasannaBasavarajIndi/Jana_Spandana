@@ -50,7 +50,7 @@ function SupervisorDashboard() {
       <div className="mb-5" style={{ padding: '2rem', background: 'linear-gradient(135deg, rgba(74, 124, 89, 0.08) 0%, rgba(139, 154, 122, 0.08) 100%)', borderRadius: 'var(--radius-lg)' }}>
         <div className="d-flex justify-content-between align-items-center flex-wrap">
           <div>
-            <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
+            <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-indigo)', marginBottom: '0.5rem' }}>
               👔 Supervisor Dashboard
             </h2>
             <p className="text-muted mb-0">Welcome, {user?.full_name} - Manage admin accounts</p>

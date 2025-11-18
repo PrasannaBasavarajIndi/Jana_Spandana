@@ -64,7 +64,7 @@ function AppNavbar() {
   const navStyles = {
     position: 'relative',
     zIndex: 100, // Lower than the login form's z-index
-    backgroundColor: 'var(--primary-green)',
+    backgroundColor: 'var(--primary-indigo)',
     boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
   };
 

@@ -81,7 +81,7 @@ function AdminDashboard() {
       <div className="mb-5" style={{ padding: '2rem', background: 'linear-gradient(135deg, rgba(74, 124, 89, 0.08) 0%, rgba(139, 154, 122, 0.08) 100%)', borderRadius: 'var(--radius-lg)' }}>
         <div className="d-flex justify-content-between align-items-center flex-wrap">
           <div>
-            <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
+            <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-indigo)', marginBottom: '0.5rem' }}>
               🛡️ Admin Dashboard
             </h2>
             <p className="text-muted mb-0">Welcome, {user?.full_name} - Manage your civic operations</p>
@@ -126,7 +126,7 @@ function AdminDashboard() {
           <div className="card text-center h-100" style={{ border: 'none', background: 'linear-gradient(135deg, rgba(74, 124, 89, 0.1) 0%, rgba(107, 157, 122, 0.1) 100%)' }}>
             <div className="card-body" style={{ padding: '2rem' }}>
               <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>📋</div>
-              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
+              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-indigo)', marginBottom: '0.5rem' }}>
                 {stats.summary.total}
               </h3>
               <p className="card-text text-muted mb-0" style={{ fontWeight: '600' }}>Total Reports</p>
@@ -148,7 +148,7 @@ function AdminDashboard() {
           <div className="card text-center h-100" style={{ border: 'none', background: 'linear-gradient(135deg, rgba(90, 143, 199, 0.1) 0%, rgba(122, 168, 217, 0.1) 100%)' }}>
             <div className="card-body" style={{ padding: '2rem' }}>
               <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>🔨</div>
-              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--info-blue)', marginBottom: '0.5rem' }}>
+              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--info-sky)', marginBottom: '0.5rem' }}>
                 {stats.summary.working}
               </h3>
               <p className="card-text text-muted mb-0" style={{ fontWeight: '600' }}>Working</p>
@@ -159,7 +159,7 @@ function AdminDashboard() {
           <div className="card text-center h-100" style={{ border: 'none', background: 'linear-gradient(135deg, rgba(90, 138, 90, 0.1) 0%, rgba(122, 176, 122, 0.1) 100%)' }}>
             <div className="card-body" style={{ padding: '2rem' }}>
               <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>✅</div>
-              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--success-green)', marginBottom: '0.5rem' }}>
+              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--success-emerald)', marginBottom: '0.5rem' }}>
                 {stats.summary.cleared}
               </h3>
               <p className="card-text text-muted mb-0" style={{ fontWeight: '600' }}>Cleared</p>
@@ -298,7 +298,7 @@ function AdminDashboard() {
 
       {/* Map */}
       <div className="card mb-4" style={{ border: 'none', overflow: 'hidden' }}>
-        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', color: 'white' }}>
+        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', color: 'white' }}>
           <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>🗺️ Reports Map</h5>
         </div>
         <div className="card-body" style={{ padding: 0 }}>
@@ -310,7 +310,7 @@ function AdminDashboard() {
 
       {/* Recent Reports Table */}
       <div className="card" style={{ border: 'none' }}>
-        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', color: 'white' }}>
+        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', color: 'white' }}>
           <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>📋 Recent Reports</h5>
         </div>
         <div className="card-body">

@@ -34,7 +34,7 @@ function AIInsights() {
   return (
     <div className="fade-in">
       <div className="mb-4" style={{ padding: '1.5rem', background: 'linear-gradient(135deg, rgba(74, 124, 89, 0.1) 0%, rgba(139, 154, 122, 0.1) 100%)', borderRadius: 'var(--radius-lg)' }}>
-        <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
+        <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-indigo)', marginBottom: '0.5rem' }}>
           🤖 AI-Powered Insights
         </h2>
         <p className="text-muted mb-0">Advanced analytics and predictions powered by machine learning</p>
@@ -42,7 +42,7 @@ function AIInsights() {
 
       {/* AI Features Status */}
       <div className="card mb-4" style={{ border: 'none' }}>
-        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', color: 'white' }}>
+        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', color: 'white' }}>
           <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>⚙️ AI Features Status</h5>
         </div>
         <div className="card-body">
@@ -61,7 +61,7 @@ function AIInsights() {
 
       {/* High Priority Reports */}
       <div className="card mb-4" style={{ border: 'none' }}>
-        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--error-terracotta) 0%, var(--error-terracotta-light) 100%)', color: 'white' }}>
+        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--error-rose) 0%, var(--error-rose-light) 100%)', color: 'white' }}>
           <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>🔴 High Priority Reports (AI-Sorted)</h5>
         </div>
         <div className="card-body">
@@ -139,7 +139,7 @@ function AIInsights() {
       <div className="row mb-4 g-4">
         <div className="col-md-6">
           <div className="card" style={{ border: 'none' }}>
-            <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--info-blue) 0%, var(--info-blue-light) 100%)', color: 'white' }}>
+            <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--info-sky) 0%, var(--info-sky-light) 100%)', color: 'white' }}>
               <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>💬 Sentiment Analysis</h5>
             </div>
             <div className="card-body">
@@ -199,7 +199,7 @@ function AIInsights() {
         </div>
         <div className="col-md-6">
           <div className="card" style={{ border: 'none' }}>
-            <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--secondary-sage) 0%, var(--secondary-sage-light) 100%)', color: 'white' }}>
+            <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--secondary-purple) 0%, var(--secondary-purple-light) 100%)', color: 'white' }}>
               <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>📊 AI Statistics</h5>
             </div>
             <div className="card-body">

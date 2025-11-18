@@ -32,7 +32,7 @@ function CreateWorker() {
     <div className="row fade-in">
       <div className="col-md-6 mx-auto">
         <div className="card" style={{ border: 'none', boxShadow: 'var(--shadow-lg)' }}>
-          <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', color: 'white' }}>
+          <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', color: 'white' }}>
             <h5 className="mb-0" style={{ color: 'white', fontWeight: '700', fontSize: '1.5rem' }}>
               👷 Create Worker Account
             </h5>

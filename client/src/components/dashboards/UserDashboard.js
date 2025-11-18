@@ -96,7 +96,7 @@ function UserDashboard() {
     <div>
       <div className="d-flex justify-content-between align-items-center mb-5 scale-in" data-aos="fade-down" style={{ padding: '2.5rem', background: 'var(--bg-gradient-soft)', borderRadius: 'var(--radius-xl)', marginBottom: '2rem', boxShadow: 'var(--shadow-lg)' }}>
         <div>
-          <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
+          <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-indigo)', marginBottom: '0.5rem' }}>
             Welcome, {user?.full_name || 'User'}! 👋
           </h2>
           <p className="text-muted mb-0">Manage your reports and stay connected with your community</p>
@@ -108,7 +108,7 @@ function UserDashboard() {
 
       {/* Map Section */}
       <div className="card mb-4" style={{ border: 'none', overflow: 'hidden' }}>
-        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', color: 'white' }}>
+        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', color: 'white' }}>
           <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>🗺️ Reports Map</h5>
         </div>
         <div className="card-body" style={{ padding: 0 }}>
@@ -121,7 +121,7 @@ function UserDashboard() {
       {/* Nearby Reports Section */}
       {nearbyReports.length > 0 && (
         <div className="card mb-4" style={{ border: 'none' }}>
-          <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--secondary-sage) 0%, #7a8a6a 100%)', color: 'white' }}>
+          <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--secondary-purple) 0%, var(--accent-violet) 100%)', color: 'white' }}>
             <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>📍 Nearby Reports (within 5km)</h5>
           </div>
           <div className="card-body">
@@ -165,7 +165,7 @@ function UserDashboard() {
 
       {/* All Reports List */}
       <div className="card" style={{ border: 'none' }}>
-        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', color: 'white' }}>
+        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', color: 'white' }}>
           <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>📋 All Reports</h5>
         </div>
         <div className="card-body">
@@ -237,7 +237,7 @@ function UserDashboard() {
         <div className="modal show d-block fade-in" style={{ backgroundColor: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)' }} onClick={() => setSelectedReport(null)}>
           <div className="modal-dialog modal-lg" onClick={(e) => e.stopPropagation()}>
             <div className="modal-content" style={{ border: 'none', borderRadius: 'var(--radius-lg)', overflow: 'hidden' }}>
-              <div className="modal-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', borderBottom: 'none' }}>
+              <div className="modal-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', borderBottom: 'none' }}>
                 <h5 className="modal-title" style={{ color: 'white', fontWeight: '700', fontSize: '1.5rem' }}>{selectedReport.title}</h5>
                 <button type="button" className="btn-close btn-close-white" onClick={() => setSelectedReport(null)}></button>
               </div>

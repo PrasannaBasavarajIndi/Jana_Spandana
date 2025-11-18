@@ -101,7 +101,7 @@ function WorkerDashboard() {
   return (
     <div>
       <div className="mb-5 scale-in" data-aos="fade-down" style={{ padding: '2.5rem', background: 'var(--bg-gradient-soft)', borderRadius: 'var(--radius-xl)', boxShadow: 'var(--shadow-lg)' }}>
-        <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
+        <h2 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-indigo)', marginBottom: '0.5rem' }}>
           🔧 Worker Dashboard
         </h2>
         <p className="text-muted mb-0">Welcome, {user?.full_name} - Manage and assign resources to reports</p>
@@ -124,7 +124,7 @@ function WorkerDashboard() {
           <div className="card text-center h-100 hover-lift" style={{ border: 'none', background: 'linear-gradient(135deg, rgba(33, 150, 243, 0.15) 0%, rgba(100, 181, 246, 0.15) 100%)' }}>
             <div className="card-body" style={{ padding: '2rem' }}>
               <div className="float" style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>🔨</div>
-              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--info-blue)', marginBottom: '0.5rem' }}>
+              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--info-sky)', marginBottom: '0.5rem' }}>
                 {reports.filter(r => r.status === 'WORKING').length}
               </h3>
               <p className="card-text text-muted mb-0" style={{ fontWeight: '600' }}>Working</p>
@@ -135,7 +135,7 @@ function WorkerDashboard() {
           <div className="card text-center h-100 hover-lift" style={{ border: 'none', background: 'linear-gradient(135deg, rgba(76, 175, 80, 0.15) 0%, rgba(111, 207, 114, 0.15) 100%)' }}>
             <div className="card-body" style={{ padding: '2rem' }}>
               <div className="float" style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>✅</div>
-              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--success-green)', marginBottom: '0.5rem' }}>
+              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--success-emerald)', marginBottom: '0.5rem' }}>
                 {reports.filter(r => r.status === 'CLEARED').length}
               </h3>
               <p className="card-text text-muted mb-0" style={{ fontWeight: '600' }}>Cleared</p>
@@ -146,7 +146,7 @@ function WorkerDashboard() {
           <div className="card text-center h-100 hover-lift" style={{ border: 'none', background: 'linear-gradient(135deg, rgba(45, 134, 89, 0.15) 0%, rgba(107, 157, 122, 0.15) 100%)' }}>
             <div className="card-body" style={{ padding: '2rem' }}>
               <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>📊</div>
-              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-green)', marginBottom: '0.5rem' }}>
+              <h3 style={{ fontSize: '2.5rem', fontWeight: '700', color: 'var(--primary-indigo)', marginBottom: '0.5rem' }}>
                 {reports.length}
               </h3>
               <p className="card-text text-muted mb-0" style={{ fontWeight: '600' }}>Total</p>
@@ -157,7 +157,7 @@ function WorkerDashboard() {
 
       {/* Map */}
       <div className="card mb-4" style={{ border: 'none', overflow: 'hidden' }}>
-        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', color: 'white' }}>
+        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', color: 'white' }}>
           <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>🗺️ Reports Map</h5>
         </div>
         <div className="card-body" style={{ padding: 0 }}>
@@ -169,7 +169,7 @@ function WorkerDashboard() {
 
       {/* Reports List */}
       <div className="card" style={{ border: 'none' }}>
-        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', color: 'white' }}>
+        <div className="card-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', color: 'white' }}>
           <h5 className="mb-0" style={{ color: 'white', fontWeight: '700' }}>📋 All Reports</h5>
         </div>
         <div className="card-body">
@@ -241,7 +241,7 @@ function WorkerDashboard() {
         <div className="modal show d-block fade-in" style={{ backgroundColor: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)' }} onClick={() => setSelectedReport(null)}>
           <div className="modal-dialog modal-lg" onClick={(e) => e.stopPropagation()}>
             <div className="modal-content" style={{ border: 'none', borderRadius: 'var(--radius-lg)', overflow: 'hidden' }}>
-              <div className="modal-header" style={{ background: 'linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%)', borderBottom: 'none' }}>
+              <div className="modal-header" style={{ background: 'linear-gradient(135deg, var(--primary-indigo) 0%, var(--primary-indigo-dark) 100%)', borderBottom: 'none' }}>
                 <h5 className="modal-title" style={{ color: 'white', fontWeight: '700', fontSize: '1.5rem' }}>
                   🔧 Assign Resources - {selectedReport.title}
                 </h5>
@@ -273,12 +273,12 @@ function WorkerDashboard() {
                 {/* AI Suggestions Section */}
                 <div className="card mb-3" style={{ 
                   background: 'linear-gradient(135deg, rgba(74, 124, 89, 0.08) 0%, rgba(139, 154, 122, 0.08) 100%)', 
-                  border: '2px solid var(--primary-green)',
+                  border: '2px solid var(--primary-indigo)',
                   borderRadius: 'var(--radius-md)'
                 }}>
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center mb-2">
-                      <h6 className="mb-0" style={{ fontWeight: '700', color: 'var(--primary-green)', fontSize: '1.1rem' }}>
+                      <h6 className="mb-0" style={{ fontWeight: '700', color: 'var(--primary-indigo)', fontSize: '1.1rem' }}>
                         🤖 AI-Powered Suggestions
                       </h6>
                       <button
